@@ -483,59 +483,6 @@ object MessageLookup {
     val homeText = "Calculate your Capital Gains Tax"
     val errorInvalidDate = "Enter a real date"
 
-    object Properties {
-
-      object WorthWhenSoldForLess {
-        val question = "What was the property worth when you sold it?"
-        val paragraphText = "You can use a valuation from a surveyor or a property website."
-      }
-
-      object OwnerBeforeLegislationStart {
-        val title = "Did you become the property owner before 1 April 1982?"
-        val errorSelectAnOption = "Tell us if you became the property owner before 1 April 1982"
-      }
-
-      object PropertiesWorthWhenGaveAway {
-        val title = "What was the property worth when you gave it away?"
-        val helpMessage = "You can use a valuation from a surveyor or a property website."
-      }
-
-      object ValueBeforeLegislationStart {
-        val question = "What was the property worth on 31 March 1982?"
-      }
-
-      object WorthWhenInherited {
-        val question = "What was the property worth when you inherited it?"
-        val additionalContent = "You can use a valuation from a surveyor or a property website."
-      }
-
-      object WorthWhenGifted {
-        val question = "What was the property worth when you got it as a gift?"
-        val additionalContent = "You can use a valuation from a surveyor or a property website."
-      }
-
-      object WorthWhenBoughtForLess {
-        val question = "What was the property worth when you bought it?"
-        val additionalContent = "You can use a valuation from a surveyor or a property website."
-      }
-
-      object ImprovementsView {
-        val question = "How much have you spent on improvements since you became the property owner?"
-        val label = "How much have you spent on improvements since you became the property owner?"
-        val questionBefore = "How much have you spent on improvements since 31 March 1982?"
-        val hint = "Improvements are permanent changes that raise the value of a property, like adding " +
-          "extensions or garages. Normal maintenance costs don't count."
-        val improvementsHelpButton = "Show me an example"
-        val improvementsAdditionalContentOne = "Replacing a basic kitchen or bathroom with a luxury version is normally considered an improvement."
-        val improvementsAdditionalContentTwo = "But replacing them with something of a similar standard is normally not an improvement."
-      }
-
-      object SellForLess {
-        val title = "Did you sell the property for less than it was worth to help the buyer?"
-      }
-
-    }
-
     object Shares {
 
       //This object will have some duplication of text from the properties summary as well as duplicating
@@ -593,6 +540,9 @@ object MessageLookup {
       //############ Worth When Sold For Less messages #################//
       object WorthWhenSoldForLess {
         val question = "What were the shares worth when you sold them?"
+        val paragraphText = "You can use a valuation from a surveyor. If you don’t know the exact value, " +
+          "you must provide a realistic estimate. You might have to pay more if we think your estimate is unrealistic."
+        val extraText = "If you owned the property with someone else, only enter your share of the property value."
       }
 
     }
